@@ -61,7 +61,13 @@ Self.username_line.place(x=550, y=359)
 
 # ============= Username Icon ===============
 Self.username_icon = Image.open('images\\39a1eb1485516800d84981a72840d60e.jpeg')
+photo = ImageTk.PhotoImage(Self.side_image)
+Self.side_image_label.image = photo
+Self.side_image_label.place(x=5, y=100)
 photo = ImageTk.PhotoImage
+
+
+
 def page():
     window = Tk()
     LoginForm(window)
