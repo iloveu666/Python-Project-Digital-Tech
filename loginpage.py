@@ -15,7 +15,7 @@ class LoginForm:
 
 
 # ============= background image =================
-Self.bg_frame = Image.open('image\\2314983.jpeg')
+Self.bg_frame = Image.open('images/2314983.jpeg')
 photo = ImageTk.PhotoImage(Self.bg_frame)
 Self.bg_panel = Label(Self,window, image=photo)
 Self.bg_panel.image = photo
@@ -30,14 +30,14 @@ Self.heading = Label(Self.lgn_frame, text=Self.text, font=('yu gothic ui', 25, '
 Self.heading.place(x=80, y=30, width=300, height=30)
 
 # ========== left side image ====================
-Self.side_image = Image.open('images\\simple cloud.webp')
+Self.side_image = Image.open('images/simple_cloud.webp')
 photo = PhotoImage(Self.side_image)
 Self.side_image_label = Label(Self,window, image=photo, bg='#040405')
 Self.side_image_label = photo
 Self.side_image_label.pack(x=5, y=100)
 
 # ============== sign in image ==================
-Self.sign_in_image = Image.open('images\\39a1eb1485516800d84981a72840d60e.jpeg')
+Self.sign_in_image = Image.open('images/39a1eb1485516800d84981a72840d60e.jpeg')
 photo = PhotoImage(Self.side_image)
 Self.sign_in_image_label = Label(Self,window, image=photo, bg='#040405')
 Self.sign_in_image_label = photo
@@ -60,7 +60,7 @@ Self.username_line.place(x=550, y=359)
 
 
 # ============= Username Icon ===============
-Self.username_icon = Image.open('images\\39a1eb1485516800d84981a72840d60e.jpeg')
+Self.username_icon = Image.open('images/39a1eb1485516800d84981a72840d60e.jpeg')
 photo = ImageTk.PhotoImage(Self.side_image)
 Self.side_image_label.image = photo
 Self.side_image_label.place(x=5, y=100)
